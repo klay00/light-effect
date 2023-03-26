@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>light effect</title>
+</head>
+
+<body>
+    <div class="sicrol">
+        
+    </div>
+
+    <h1>Hussein Alaa</h1>
+    <div class="light">
+        <script type="text/javascript">
+            let pos = document.documentElement;
+            pos.addEventListener('mousemove', e => {
+                pos.style.setProperty('--x', e.clientX + "px");
+                pos.style.setProperty('--y', e.clientY + "px");
+            });
+        </script>
+    </div>
+</body>
+
+</html>
